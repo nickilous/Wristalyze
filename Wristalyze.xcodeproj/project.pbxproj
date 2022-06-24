@@ -428,6 +428,8 @@
 				DEVELOPMENT_TEAM = C2DCC2XTSE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Add info text for sharing to healthkit later";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Add info test for updating healthkit usage later";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +459,8 @@
 				DEVELOPMENT_TEAM = C2DCC2XTSE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Add info text for sharing to healthkit later";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Add info test for updating healthkit usage later";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
