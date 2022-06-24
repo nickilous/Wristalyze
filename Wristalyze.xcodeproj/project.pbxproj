@@ -18,6 +18,7 @@
 		E176767C2865EDE8004AE800 /* WristalyzeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176767B2865EDE8004AE800 /* WristalyzeUITestsLaunchTests.swift */; };
 		E176768B2865EEF0004AE800 /* HealthkitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176768A2865EEF0004AE800 /* HealthkitManager.swift */; };
 		E176768F2865EF0F004AE800 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E176768E2865EF0F004AE800 /* HealthKit.framework */; };
+		E17676922865F290004AE800 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676912865F290004AE800 /* Athlete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E176768A2865EEF0004AE800 /* HealthkitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthkitManager.swift; sourceTree = "<group>"; };
 		E176768C2865EF0F004AE800 /* Wristalyze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wristalyze.entitlements; sourceTree = "<group>"; };
 		E176768E2865EF0F004AE800 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E17676912865F290004AE800 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,9 @@
 		E17676582865EDE6004AE800 /* Wristalyze */ = {
 			isa = PBXGroup;
 			children = (
+				E17676932865F659004AE800 /* Errors */,
 				E176768C2865EF0F004AE800 /* Wristalyze.entitlements */,
+				E17676902865F282004AE800 /* Models */,
 				E17676892865EED9004AE800 /* HealthKit Manager */,
 				E17676592865EDE6004AE800 /* WristalyzeApp.swift */,
 				E176765B2865EDE6004AE800 /* ContentView.swift */,
@@ -156,6 +160,21 @@
 				E176768E2865EF0F004AE800 /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17676902865F282004AE800 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E17676912865F290004AE800 /* Athlete.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E17676932865F659004AE800 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17676632865EDE8004AE800 /* Persistence.swift in Sources */,
+				E17676922865F290004AE800 /* Athlete.swift in Sources */,
 				E176768B2865EEF0004AE800 /* HealthkitManager.swift in Sources */,
 				E17676662865EDE8004AE800 /* Wristalyze.xcdatamodeld in Sources */,
 				E176765C2865EDE6004AE800 /* ContentView.swift in Sources */,
