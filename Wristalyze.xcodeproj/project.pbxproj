@@ -17,6 +17,16 @@
 		E176767A2865EDE8004AE800 /* WristalyzeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676792865EDE8004AE800 /* WristalyzeUITests.swift */; };
 		E176767C2865EDE8004AE800 /* WristalyzeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176767B2865EDE8004AE800 /* WristalyzeUITestsLaunchTests.swift */; };
 		E176768F2865EF0F004AE800 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E176768E2865EF0F004AE800 /* HealthKit.framework */; };
+		E17676AA2867658F004AE800 /* ServiceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676A92867658F004AE800 /* ServiceTypes.swift */; };
+		E17676AC286765CB004AE800 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676AB286765CB004AE800 /* ServiceProtocol.swift */; };
+		E17676AF28676632004AE800 /* MockHealthkitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676AE28676632004AE800 /* MockHealthkitService.swift */; };
+		E17676B1286766A0004AE800 /* ServiceAvailableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676B0286766A0004AE800 /* ServiceAvailableProtocol.swift */; };
+		E17676B3286769AC004AE800 /* ServicePermissionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676B2286769AC004AE800 /* ServicePermissionProtocol.swift */; };
+		E17676D92867CCCA004AE800 /* ServiceAthleteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676D82867CCCA004AE800 /* ServiceAthleteProtocol.swift */; };
+		E17676DD2867CD1A004AE800 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676DC2867CD1A004AE800 /* Athlete.swift */; };
+		E17676E028680F0F004AE800 /* StoreRequiresPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676DF28680F0F004AE800 /* StoreRequiresPermissions.swift */; };
+		E17676E428680F5D004AE800 /* MockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676E328680F5D004AE800 /* MockStore.swift */; };
+		E17676E6286810B1004AE800 /* MockServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17676E5286810B1004AE800 /* MockServiceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		E176767B2865EDE8004AE800 /* WristalyzeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristalyzeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E176768C2865EF0F004AE800 /* Wristalyze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wristalyze.entitlements; sourceTree = "<group>"; };
 		E176768E2865EF0F004AE800 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E17676A92867658F004AE800 /* ServiceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypes.swift; sourceTree = "<group>"; };
+		E17676AB286765CB004AE800 /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		E17676AE28676632004AE800 /* MockHealthkitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHealthkitService.swift; sourceTree = "<group>"; };
+		E17676B0286766A0004AE800 /* ServiceAvailableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAvailableProtocol.swift; sourceTree = "<group>"; };
+		E17676B2286769AC004AE800 /* ServicePermissionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePermissionProtocol.swift; sourceTree = "<group>"; };
+		E17676D82867CCCA004AE800 /* ServiceAthleteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAthleteProtocol.swift; sourceTree = "<group>"; };
+		E17676DC2867CD1A004AE800 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		E17676DF28680F0F004AE800 /* StoreRequiresPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRequiresPermissions.swift; sourceTree = "<group>"; };
+		E17676E328680F5D004AE800 /* MockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStore.swift; sourceTree = "<group>"; };
+		E17676E5286810B1004AE800 /* MockServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServiceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,9 @@
 		E17676582865EDE6004AE800 /* Wristalyze */ = {
 			isa = PBXGroup;
 			children = (
+				E17676DE28680EF4004AE800 /* Store */,
+				E17676DA2867CD01004AE800 /* Core */,
+				E17676A82867657B004AE800 /* Services */,
 				E176768C2865EF0F004AE800 /* Wristalyze.entitlements */,
 				E17676592865EDE6004AE800 /* WristalyzeApp.swift */,
 				E176765B2865EDE6004AE800 /* ContentView.swift */,
@@ -126,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				E176766F2865EDE8004AE800 /* WristalyzeTests.swift */,
+				E17676E5286810B1004AE800 /* MockServiceTest.swift */,
 			);
 			path = WristalyzeTests;
 			sourceTree = "<group>";
@@ -145,6 +169,60 @@
 				E176768E2865EF0F004AE800 /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17676A82867657B004AE800 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E17676AD2867661A004AE800 /* MockServices */,
+				E17676A92867658F004AE800 /* ServiceTypes.swift */,
+				E17676AB286765CB004AE800 /* ServiceProtocol.swift */,
+				E17676B0286766A0004AE800 /* ServiceAvailableProtocol.swift */,
+				E17676B2286769AC004AE800 /* ServicePermissionProtocol.swift */,
+				E17676D82867CCCA004AE800 /* ServiceAthleteProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E17676AD2867661A004AE800 /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+				E17676AE28676632004AE800 /* MockHealthkitService.swift */,
+			);
+			path = MockServices;
+			sourceTree = "<group>";
+		};
+		E17676DA2867CD01004AE800 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E17676DB2867CD0E004AE800 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E17676DB2867CD0E004AE800 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E17676DC2867CD1A004AE800 /* Athlete.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E17676DE28680EF4004AE800 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				E17676E228680F51004AE800 /* Mock */,
+				E17676DF28680F0F004AE800 /* StoreRequiresPermissions.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E17676E228680F51004AE800 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E17676E328680F5D004AE800 /* MockStore.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +356,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17676632865EDE8004AE800 /* Persistence.swift in Sources */,
+				E17676AF28676632004AE800 /* MockHealthkitService.swift in Sources */,
 				E17676662865EDE8004AE800 /* Wristalyze.xcdatamodeld in Sources */,
+				E17676DD2867CD1A004AE800 /* Athlete.swift in Sources */,
+				E17676B3286769AC004AE800 /* ServicePermissionProtocol.swift in Sources */,
 				E176765C2865EDE6004AE800 /* ContentView.swift in Sources */,
+				E17676E028680F0F004AE800 /* StoreRequiresPermissions.swift in Sources */,
+				E17676E428680F5D004AE800 /* MockStore.swift in Sources */,
+				E17676AC286765CB004AE800 /* ServiceProtocol.swift in Sources */,
+				E17676B1286766A0004AE800 /* ServiceAvailableProtocol.swift in Sources */,
+				E17676D92867CCCA004AE800 /* ServiceAthleteProtocol.swift in Sources */,
+				E17676AA2867658F004AE800 /* ServiceTypes.swift in Sources */,
 				E176765A2865EDE6004AE800 /* WristalyzeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17676702865EDE8004AE800 /* WristalyzeTests.swift in Sources */,
+				E17676E6286810B1004AE800 /* MockServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
